@@ -1,6 +1,6 @@
 import { Router } from "express";
-import * as c from "../controllers/message.controller";
-import * as val from "../validators/message.validator";
+import * as c from "../messages/message.controller";
+import * as val from "./message.validator";
 import validator from "../middlewares/validator";
 
 const router = Router();

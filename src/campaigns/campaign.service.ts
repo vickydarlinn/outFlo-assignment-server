@@ -1,6 +1,6 @@
-import Campaign from "../models/campaign.model";
+import Campaign from "./campaign.model";
 import createHttpError from "http-errors";
-import { CreateCampaign, UpdateCampaign } from "../types/campaign.types";
+import { CreateCampaign, UpdateCampaign } from "./campaign.types";
 
 export async function createCampaign(data: CreateCampaign) {
   return Campaign.create(data);

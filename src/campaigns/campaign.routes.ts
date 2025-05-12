@@ -1,6 +1,6 @@
 import { RequestHandler, Router } from "express";
-import * as c from "../controllers/campaign.controller";
-import * as val from "../validators/campaign.validator";
+import * as c from "./campaign.controller";
+import * as val from "./campaign.validator";
 import validator from "../middlewares/validator";
 
 const router = Router();

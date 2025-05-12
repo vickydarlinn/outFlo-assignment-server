@@ -6,7 +6,7 @@ import {
   getCampaignById,
   updateCampaign,
   softDeleteCampaign,
-} from "../services/campaign.service";
+} from "./campaign.service";
 
 export const getAll = asyncHandler(async (_req: Request, res: Response) => {
   const data = await getCampaigns();

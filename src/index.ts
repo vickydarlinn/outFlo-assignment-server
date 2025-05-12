@@ -3,8 +3,8 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import mongoose from "mongoose";
-import campaignRoutes from "./routes/campaign.routes";
-import messageRoutes from "./routes/message.routes";
+import campaignRoutes from "./campaigns/campaign.routes";
+import messageRoutes from "./messages/message.routes";
 import { Request, Response } from "express";
 import { globalErrorHandler } from "./middlewares/globalErrorHandler";
 

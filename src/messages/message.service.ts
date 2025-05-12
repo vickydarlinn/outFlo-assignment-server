@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { CreateMessage } from "../types/message.types";
+import { CreateMessage } from "./message.types";
 
 const openai = new OpenAI({
   apiKey: process.env.GROQ_API_KEY,
