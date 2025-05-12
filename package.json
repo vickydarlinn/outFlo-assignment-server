@@ -23,6 +23,7 @@
     "moment-timezone": "^0.5.48",
     "mongoose": "^8.14.2",
     "openai": "^4.98.0",
+    "puppeteer": "^24.8.2",
     "uuid": "^11.1.0",
     "winston": "^3.17.0"
   },

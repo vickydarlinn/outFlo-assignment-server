@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-import { Browser } from "puppeteer";
-
 export interface AuthResult {
   failed: boolean;
   restart?: boolean;
