@@ -5,6 +5,8 @@ import helmet from "helmet";
 import mongoose from "mongoose";
 import campaignRoutes from "./campaigns/campaign.routes";
 import messageRoutes from "./messages/message.routes";
+import linkedinRoutes from "./linkedin/linkedin.routes";
+
 import { Request, Response } from "express";
 import { globalErrorHandler } from "./middlewares/globalErrorHandler";
 
@@ -16,6 +18,7 @@ app.use(cors());
 app.use(helmet());
 
 // routes
+app.use("/linkedin", linkedinRoutes);
 app.use("/campaigns", campaignRoutes);
 app.use("/personalized-message", messageRoutes);
 
